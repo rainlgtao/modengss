@@ -29,8 +29,11 @@
 							<div class="card-main">
 								<div class="card-inner">
 									<div class="card-inner">
-										<p class="card-heading">充值码</p>
-										<p>当前余额：{$user->money} 元</p>
+									    <p>付款方式：</p>
+										<p>1.加微信：lgtao8或者QQ：3596527通过红包方式获取充值码。</p>
+										<p>2.支付宝充值</p>	
+										<p class="card-heading">1.充值码</p>
+										<p><font size="5px" color="red">您的当前余额：{$user->money} 元</font></p>
 										<div class="form-group form-group-label">
 											<label class="floating-label" for="code">充值码</label>
 											<input class="form-control" id="code" type="text">
